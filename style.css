@@ -1,0 +1,120 @@
+/* Starter CSS by RCNEIL */
+
+body {
+	margin:0px; padding:0px;
+	font-family:Arial, sans-serif;
+	background:#fff;
+	color:#232323;
+} 
+div { 
+	display:block; 
+	position:relative; 
+	margin:0px auto; 
+	padding:0px; 
+}
+.container {
+	float:none; clear:both; margin:0px auto; padding:0px;
+	width:100%; height:auto; 	
+}
+.row {
+	float:none; clear:both; margin:0px auto; padding:0px; 
+	width:100%; height:auto; 
+	max-width:1080px; 
+}
+
+/*UNIVERSAL SPAN SELECTOR */
+div[class*='span'] {
+	float:left; 
+	margin:0px auto; 
+	padding:24px 16px; 
+	height:auto;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing: border-box;
+   	box-sizing: border-box;
+}
+.span5 { width:5%; }
+.span10 { width:10%; }
+.span15 { width:15%; }
+.span20 { width:20%; }
+.span25 { width:25%; }
+.span30 { width:30%; }
+.span33 { width:33%; }
+.span35 { width:35%; }
+.span40 { width:40%; }
+.span45 { width:45%; }
+.span50 { width:50%; }
+.span55 { width:55%; }
+.span60 { width:60%; }
+.span65 { width:65%; }
+.span66 { width:66%; }
+.span70 { width:70%; }
+.span75 { width:75%; }
+.span80 { width:80%; }
+.span85 { width:85%; }
+.span90 { width:90%; }
+.span100 { width:100%; }
+
+.table {
+	display:table; position:absolute; height:100%; width:100%;
+}
+.table-cell {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width:auto;
+	height:auto;
+}
+h1, h2, h3, h4, h5, h6 {
+
+}
+p {
+	
+}
+a {
+	text-decoration:none;
+	-webkit-transition:120ms;
+	transition:120ms;
+}
+a:hover {
+
+}
+img, a img {
+	display:inline-block; 
+	max-width:100%; 
+	height:auto; 
+	border:0px;
+	padding:0px;
+	margin:0px auto;
+}
+small {font-size:80%;}
+.bold, strong {font-weight:bold;}
+.italic, em { font-style:italic;}
+.hidden { display:none; }
+.clear {	clear:both; float:none; display:block; position:relative; }
+.text-center { text-align:center; }
+.text-right { text-align:right; } 
+.no-gap { margin:0px auto !important; padding:0px !important; } 
+
+
+
+
+
+
+
+
+/*  MEDIA QUERIES 
+============================*/
+@media all and (max-width:768px) {
+
+
+div[class*='span'] {
+	float:none; 
+	clear:both; 
+	width:100%; 
+}
+
+
+
+
+}
