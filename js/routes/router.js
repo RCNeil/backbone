@@ -10,7 +10,7 @@ app.Router = Backbone.Router.extend({
 	},
 
 	noCopy: function(){
-		$("#copy").html("");
+		$("#copy").html("Hello and welcome!");
 	},
 
 	heirloomRoseMessage: function(){

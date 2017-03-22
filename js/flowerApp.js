@@ -44,3 +44,10 @@ var flowerGroup = new app.FlowersCollection([
 //DISPLAY
 var flowerGroupView = new app.allFlowersView({ collection: flowerGroup});
 $('#allFlowers').html(flowerGroupView.render().el); 
+
+
+//SET UP AND CALL ROUTES
+
+var flowerRouter = new app.Router();
+Backbone.history.start(); 
+
